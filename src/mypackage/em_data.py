@@ -5,7 +5,7 @@ import json
 #falls kein zonekey angegeben ist wird automatisch der zonekey der IP adresse verwendet  
 url = "https://api-access.electricitymaps.com/free-tier/power-breakdown/latest?zone=DE"
 headers = {
-  "auth-token": "Ky8u5b7cZ5BnqYUAfjrLorVH48qv1GWb"
+  "auth-token": ""
 }
 
 response = requests.get(url, headers=headers)
